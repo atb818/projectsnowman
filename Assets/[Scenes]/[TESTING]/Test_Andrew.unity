@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 1405255}
   - component: {fileID: 1405254}
   - component: {fileID: 1405253}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_torso
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -197,76 +197,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405251}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &55852756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 55852757}
-  m_Layer: 0
-  m_Name: carrot_spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &55852757
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 55852756}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.066, z: 0.399}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1304501968}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &68031135
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 18.111
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
-  m_IsPrefabParent: 0
 --- !u!4 &76778387 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4909704550993974, guid: cd7e7503f3962974a9164048639f77fe,
@@ -283,7 +213,7 @@ GameObject:
   - component: {fileID: 115063228}
   - component: {fileID: 115063227}
   - component: {fileID: 115063226}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_body
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -376,34 +306,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!1 &196305716
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 196305717}
-  m_Layer: 0
-  m_Name: carrot_spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &196305717
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 196305716}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.066, z: 0.399}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 399315226}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211759089
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +375,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1464041785}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &271517878
 GameObject:
@@ -486,7 +388,7 @@ GameObject:
   - component: {fileID: 271517882}
   - component: {fileID: 271517881}
   - component: {fileID: 271517880}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_body
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -567,7 +469,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 292840350}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SnowmanTarget (1)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -588,10 +490,67 @@ Transform:
   - {fileID: 791335663}
   - {fileID: 493892183}
   - {fileID: 1186809153}
-  - {fileID: 1041587123}
   m_Father: {fileID: 1260671482}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 211.50699, z: 0}
+--- !u!1001 &302928595
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 18.111
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289230000434288, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344947005314334, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186308293447086, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_Name
+      value: CamOrbit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1344947005314334, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_Name
+      value: WeaponManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1307084535989524, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2d11bcf35a5e4f449937d583f4f54d26, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &399315225
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +559,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 399315226}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SnowmanTarget
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -621,7 +580,6 @@ Transform:
   - {fileID: 1405252}
   - {fileID: 2142233207}
   - {fileID: 1920433423}
-  - {fileID: 196305717}
   m_Father: {fileID: 1260671482}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 211.50699, z: 0}
@@ -636,7 +594,7 @@ GameObject:
   - component: {fileID: 493892186}
   - component: {fileID: 493892185}
   - component: {fileID: 493892184}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_head
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -720,7 +678,7 @@ GameObject:
   - component: {fileID: 609976701}
   - component: {fileID: 609976700}
   - component: {fileID: 609976699}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_torso
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -839,23 +797,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd7e7503f3962974a9164048639f77fe, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &704069739 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1583882641263216, guid: 6513aeaaa6a69354cb7ba3786d7adcaa,
-    type: 2}
-  m_PrefabInternal: {fileID: 1680602234}
---- !u!114 &704069746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 704069739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aba54f62f731c143902537ea6f4eb19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifespan: 15
 --- !u!1 &791335662
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,7 +808,7 @@ GameObject:
   - component: {fileID: 791335666}
   - component: {fileID: 791335665}
   - component: {fileID: 791335664}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_torso
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1016,7 +957,7 @@ GameObject:
   - component: {fileID: 997643382}
   - component: {fileID: 997643381}
   - component: {fileID: 997643380}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_body
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1135,34 +1076,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1041587122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1041587123}
-  m_Layer: 0
-  m_Name: carrot_spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1041587123
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1041587122}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.066, z: 0.399}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 292840350}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1080432664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,12 +1153,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080432664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.7418, y: 19.97, z: 7.159474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.076552, y: 6.1920404, z: -0.27143574}
   m_LocalScale: {x: 8.772505, y: 7.448531, z: 16.756134}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1464041785}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1186809152
 GameObject:
@@ -1259,7 +1172,7 @@ GameObject:
   - component: {fileID: 1186809156}
   - component: {fileID: 1186809155}
   - component: {fileID: 1186809154}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: carrot_temp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1397,7 +1310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1260671482
 Transform:
   m_ObjectHideFlags: 0
@@ -1412,7 +1325,7 @@ Transform:
   - {fileID: 292840350}
   - {fileID: 1304501968}
   m_Father: {fileID: 1464041785}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1284034773
 GameObject:
@@ -1601,7 +1514,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1304501968}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SnowmanTarget (2)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1622,7 +1535,6 @@ Transform:
   - {fileID: 609976698}
   - {fileID: 1638517990}
   - {fileID: 1462239773}
-  - {fileID: 55852757}
   m_Father: {fileID: 1260671482}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 131.602, z: 0}
@@ -1684,7 +1596,7 @@ GameObject:
   - component: {fileID: 1462239776}
   - component: {fileID: 1462239775}
   - component: {fileID: 1462239774}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: carrot_temp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1787,6 +1699,7 @@ Transform:
   m_LocalPosition: {x: -12.818352, y: 13.777959, z: 7.4309096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1080432668}
   - {fileID: 211759092}
   - {fileID: 2091963783}
   - {fileID: 1875266086}
@@ -1805,7 +1718,7 @@ GameObject:
   - component: {fileID: 1638517993}
   - component: {fileID: 1638517992}
   - component: {fileID: 1638517991}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_head
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1921,11 +1834,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 54181661466507506, guid: 6513aeaaa6a69354cb7ba3786d7adcaa,
-        type: 2}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6513aeaaa6a69354cb7ba3786d7adcaa, type: 2}
   m_IsPrefabParent: 0
@@ -1933,12 +1841,12 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 1112885483430970, guid: 2d11bcf35a5e4f449937d583f4f54d26,
     type: 2}
-  m_PrefabInternal: {fileID: 68031135}
+  m_PrefabInternal: {fileID: 302928595}
 --- !u!20 &1849242565 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20605337361224026, guid: 2d11bcf35a5e4f449937d583f4f54d26,
     type: 2}
-  m_PrefabInternal: {fileID: 68031135}
+  m_PrefabInternal: {fileID: 302928595}
 --- !u!1 &1875266082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,7 +1931,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 1464041785}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1905656498
 Prefab:
@@ -2103,7 +2011,7 @@ GameObject:
   - component: {fileID: 1920433426}
   - component: {fileID: 1920433425}
   - component: {fileID: 1920433424}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: carrot_temp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2398,7 +2306,7 @@ Transform:
   m_LocalScale: {x: 1000, y: 50, z: 1000}
   m_Children: []
   m_Father: {fileID: 1464041785}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142233206
 GameObject:
@@ -2411,7 +2319,7 @@ GameObject:
   - component: {fileID: 2142233210}
   - component: {fileID: 2142233209}
   - component: {fileID: 2142233208}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: sm_head
   m_TagString: Player
   m_Icon: {fileID: 0}

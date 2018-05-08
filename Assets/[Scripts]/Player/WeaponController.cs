@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour {
 
+	public GameObject thisPlayer;
+
 	Rigidbody projectile;
 	public GameObject snowball;
 	public GameObject carrot;
@@ -25,6 +27,7 @@ public class WeaponController : MonoBehaviour {
 
 
 	void Start () {
+		thisPlayer = this.gameObject;
 		projectile = snowball.GetComponent<Rigidbody>();
 		speed = snowballSpeed;
 		spawn = sb_spawn;
@@ -33,9 +36,7 @@ public class WeaponController : MonoBehaviour {
 	
 	void Update () {
 		WeaponManager();
-		if (Input.GetKeyDown(KeyCode.Mouse0)) {
-			Shoot();
-		}
+
 		if (canZoom){
 			if (Input.GetKey(KeyCode.Mouse1)){
 				tppCam.GetComponent<Camera>().enabled = false;
@@ -48,12 +49,18 @@ public class WeaponController : MonoBehaviour {
 		}
 	}
 
+	void FixedUpdate () {
+		if (Input.GetKeyDown(KeyCode.Mouse0)) {
+			Shoot();
+		}
+	}
+
 	void Shoot () {
             Rigidbody clone;
             clone = Instantiate(projectile, spawn.transform.position, Quaternion.Euler(myCam.transform.eulerAngles.x + newXAng, myCam.transform.eulerAngles.y, myCam.transform.eulerAngles.z)) as Rigidbody;
             //clone.velocity = transform.TransformDirection(Vector3.forward * speed);
             clone.AddForce(transform.forward * speed);
-            Debug.Log("pew");
+            //Debug.Log("pew");
 	}
 
 	void WeaponManager () {

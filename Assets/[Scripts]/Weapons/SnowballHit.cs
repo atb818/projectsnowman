@@ -8,7 +8,9 @@ public class SnowballHit : MonoBehaviour {
 	public GameObject sb_particle;
 
 	void Start () {
+		StartCoroutine("ColliderDelay");
 		p_system = sb_particle.GetComponent<ParticleSystem>();
+
 	}
 	
 	void Update () {
@@ -16,9 +18,18 @@ public class SnowballHit : MonoBehaviour {
 	}
 
 	void OnCollisionEnter (Collision col) {
+		Debug.Log("Snowball Hit");
         ParticleSystem clone;
         clone = Instantiate(p_system, transform.position, transform.rotation) as ParticleSystem;
-		Destroy(this.gameObject);
+        GetComponent<Renderer>().enabled = false;
+        GetComponent<Collider>().enabled = false;
+		Destroy(this.gameObject,1);
+	}
+
+	IEnumerator ColliderDelay(){
+		GetComponent<Collider>().enabled = false;
+		yield return new WaitForSeconds(.5f);
+		GetComponent<Collider>().enabled = true;
 	}
 
 }
